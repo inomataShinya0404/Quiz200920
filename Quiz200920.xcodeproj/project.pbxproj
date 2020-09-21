@@ -15,6 +15,8 @@
 		D5E0A9D62517BE7B000E1164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E0A9D42517BE7B000E1164 /* LaunchScreen.storyboard */; };
 		D5E0A9E12517BE7B000E1164 /* Quiz200920Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E0A9E02517BE7B000E1164 /* Quiz200920Tests.swift */; };
 		D5E0A9EC2517BE7B000E1164 /* Quiz200920UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E0A9EB2517BE7B000E1164 /* Quiz200920UITests.swift */; };
+		D5E0A9FA2517BEF8000E1164 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E0A9F92517BEF8000E1164 /* QuizViewController.swift */; };
+		D5E0A9FC2517BF0C000E1164 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E0A9FB2517BF0C000E1164 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D5E0A9E72517BE7B000E1164 /* Quiz200920UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quiz200920UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E0A9EB2517BE7B000E1164 /* Quiz200920UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz200920UITests.swift; sourceTree = "<group>"; };
 		D5E0A9ED2517BE7B000E1164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E0A9F92517BEF8000E1164 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		D5E0A9FB2517BF0C000E1164 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				D5E0A9D22517BE7B000E1164 /* Assets.xcassets */,
 				D5E0A9D42517BE7B000E1164 /* LaunchScreen.storyboard */,
 				D5E0A9D72517BE7B000E1164 /* Info.plist */,
+				D5E0A9F92517BEF8000E1164 /* QuizViewController.swift */,
+				D5E0A9FB2517BF0C000E1164 /* ResultViewController.swift */,
 			);
 			path = Quiz200920;
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E0A9FC2517BF0C000E1164 /* ResultViewController.swift in Sources */,
 				D5E0A9CE2517BE79000E1164 /* ViewController.swift in Sources */,
 				D5E0A9CA2517BE79000E1164 /* AppDelegate.swift in Sources */,
 				D5E0A9CC2517BE79000E1164 /* SceneDelegate.swift in Sources */,
+				D5E0A9FA2517BEF8000E1164 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
